@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+.ocultar{
+    display: none;
+}
+
+@media screen and (max-width: 1176px) {
+    body{
+        max-width: 1176px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    body{
+        max-width: 1050px;
+    }
+}
+
+@media screen and (max-width: 818px) {
+    body{
+        max-width: 818px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    body{
+        max-width: 620px;
+    }
+}
+
+/*
+    medidas para el diseño responsive:
+
+    1176px primera division
+
+    1050px segunda division
+
+    818px tercera division
+
+    620px cuarta division
+*/

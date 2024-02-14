@@ -1,0 +1,268 @@
+#information{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+}
+
+#information h1{
+    font-size: 30px;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 100;
+    color: #444;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00b289;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: #027c5f;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px #00b289;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+
+#plans{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#plans h3{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+.cards{
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin: 70px auto;
+}
+
+#card-1{
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 2px #ccc;
+    width: 430px;
+    height: 650px;
+}
+
+.price-card{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 320px;
+    height: 140px;
+    border-bottom: solid 2px #00b289;
+}
+
+.price-card h4{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#price-card_1{
+    display: flex;
+    width: 200px;
+    margin-top: 30px;
+}
+
+#price-card_1 p{
+    font-size: 25px;
+}
+
+#price-card_1 .number{
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+#price-card_1 .time{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.info-card{
+    width: 320px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.info-card ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: circle;
+}
+
+.info-card ul li{
+    margin: 10px 0;
+}
+
+.info-card ul #new-logo::after{
+    content: " New";
+    background-color: rgb(255, 217, 0);
+    color: #fff;
+    padding: 1px 3px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.info-card button{
+    width: 300px;
+    height: 60px;
+    margin-top: 25px;
+    font-weight: 600;
+    background-color: #00b289;
+    cursor: pointer;
+    color: #fff;
+    border: #00b289 2px solid;
+    border-radius: 5px;
+}
+
+#card-2{
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 2px #ccc;
+    width: 430px;
+    height: 650px;
+}
+
+#trapecio {
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 35px;
+    width: 200px;
+    height: 0;
+    border-right: 35px solid transparent;
+    border-left: 35px solid transparent;
+    border-bottom: 35px solid #00b289;
+    transform: rotate(45deg);
+    margin-left: 270px;
+    margin-top: 40px;
+}
+
+#price-card_2{
+    display: flex;
+    width: 200px;
+    margin-top: 30px;
+}
+
+#price-card_2 p{
+    font-size: 25px;
+}
+
+#price-card_2 .number{
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+#price-card_2 .time{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1050px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        margin: 60px auto;
+    }
+
+    #card-2{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 818px) {
+
+    main{
+        margin: auto;
+    }
+
+    #information{
+        flex-direction: column;
+        width: 400px;
+        margin: auto;
+        margin-top: 150px;
+    }
+    
+    #information h1{
+        margin: auto;
+    }
+
+    #plans{
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    
+    main{
+        width: 400px;
+    }
+
+    #information h1{
+        margin-left: 110px;
+    }
+
+    .cards{
+        width: 400px;
+    }
+}

@@ -1,0 +1,315 @@
+.extension-container{
+    width: auto;
+    height: 2000px;
+}
+
+.extension-information{
+    margin-top: 140px;
+    text-align: center;
+}
+
+.extension-information h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: #444;
+}
+
+.extension-1{
+    margin-top: 80px;
+}
+
+.extension-cards{
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: left;
+    margin: 10px auto;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#extension-card-1{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+#extension-card-1 p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+#extension-free{
+    margin-top: 35px;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.extension-cost{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.extension-cost h5{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.extension-cost p{
+    font-size: 13px;
+}
+
+#extension-card-2{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+#extension-card-2 p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+.extension-card-last{
+    height:150px;
+}
+
+#extension-card-3{
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+#extension-card-3 p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+.extension-cost-last{
+    margin-top: 40px;
+}
+
+#extension-card-3 button{
+    margin-top: 10px;
+    background-color: #fff;
+    border: none;
+    color: #00b289;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#extension-card-3 button:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+#learn-more-container{
+    background-color: rgb(161, 214, 240, 0.2);
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#learn-more-text{
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+#learn-more-title{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+#your{
+    color: #00b289;
+}
+
+#learn-more-button{
+    width: 180px;
+    height: 60px;
+    margin-top: 120px;
+    margin-right: 60px;
+    font-weight: 600;
+    background-color: #00b289;
+    cursor: pointer;
+    color: #fff;
+    border: #00b289 2px solid;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+#learn-more-button:hover{
+    scale: 1.10;
+    transition: 0.5s;
+}
+
+#questions h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #00b289;
+}
+
+.questions-cards{
+    width: 600px;
+    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.questions-title-1{
+    margin-top: 40px;
+}
+
+.questions-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.questions-text{
+    margin-top: 15px;
+    color: #444;
+    position: relative;
+    padding: 5px;
+}
+
+.questions-button{
+    background-color: rgb(246, 246, 246);
+    border: none;
+    cursor: pointer;
+}
+
+.questions-button i{
+    font-size: 17px;
+    color: #bbb;
+}
+
+.questions-button i:hover{
+    color: #000;
+    transition: 1s;  
+}
+
+@media screen and (max-width: 1050px) {
+
+    .extension-information h2{
+        font-size: 35px;
+    }
+
+    .extension-cards{
+        height: 150px;
+        width: 800px;
+    }
+
+    #extension-card-1, #extension-free, #extension-card-2, #extension-cost-1{
+        margin-top: 50px;
+    }
+
+    #learn-more-container{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 818px) {
+    .extension-cards{
+        width: 500px;
+    }
+
+    #extension-card-1, #extension-card-2 ,#extension-card-3{
+        width: 300px;
+    }
+
+    #learn-more-container{
+        width: 500px;
+        flex-direction: column;
+    }
+
+    #learn-more-text{
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+    #learn-more-title{
+        font-size: 35px;
+        width: 300px;
+        margin: auto;
+    }
+    
+    #learn-more-title2{
+        font-size: 35px;
+    }
+
+    .questions-cards{
+        width: 400px;
+    }
+
+    #learn-more-button{
+        margin: auto;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    #aside-content{
+        width: 400px;
+        margin: auto;
+    }
+
+    .extension-information h2{
+        font-size: 30px;
+    }
+
+    .extension-cards{
+        width: 400px;
+    }
+
+    #extension-card-1, #extension-card-2{
+        width: 200px;
+        margin-top: 40px;
+    }
+    
+    #extension-card-3{
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    #learn-more-container{
+        width: 400px;
+    }
+
+    #learn-more-title{
+        font-size: 30px;
+    }
+
+    #learn-more-title2{
+        font-size: 30px;
+    }
+
+    #questions{
+        width: 400px;
+        margin: auto;
+    }
+
+    .questions-cards{
+        width: 300px;
+    }
+    
+    .questions-cards p{
+        font-size: 12px;
+    }
+
+    .questions-title{
+        font-size: 13px;
+    }
+}
