@@ -313,3 +313,26 @@
         font-size: 13px;
     }
 }
+
+@media screen and (max-width: 300px) {
+    #aside-content{
+        width: 300px;
+    }
+
+    .extension-cards{
+        width: 300px;
+    }
+
+    #learn-more-container{
+        width: 300px;
+    }
+
+    #questions{
+        width: 300px;
+    }
+
+    .questions-cards{
+        width: 250px;
+        margin: auto;
+    }
+}

@@ -266,3 +266,17 @@ input:checked + .slider:before {
         width: 400px;
     }
 }
+
+@media screen and (max-width: 300px){
+    main{
+        width: 300px;
+    }
+
+    #information{
+        width: 300px;
+    }
+
+    .cards{
+        width: 300px;
+    }
+}

@@ -192,3 +192,9 @@ header h2 a{
         margin-left: 40px;
     }
 }
+
+@media screen and (max-width: 300px) {
+    header{
+        width: 300px;
+    }
+}

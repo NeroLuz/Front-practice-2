@@ -36,6 +36,12 @@ body{
     }
 }
 
+@media screen and (max-width: 300px) {
+    body{
+        max-width: 300px;
+    }
+}
+
 /*
     medidas para el diseño responsive:
 
