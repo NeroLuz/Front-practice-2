@@ -8,16 +8,12 @@ const Header = () => {
 
     const mostrarMenu = () => {
         setMenu(!menu)
-        console.log(menu);
     }
 
   return (
     <header>
         <nav>
             <div id="info-empresa">
-                <a href="index.html">
-                    <img src="../../../src/assets/logo-para-pruebas.png" alt="Logo de la empresa"/>
-                </a>
                 <h2><a href="index.html">Bonsai</a></h2>
             </div>
             <div className="nav-links">
